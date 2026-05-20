@@ -5,7 +5,7 @@ Terminal ilə:
   base64 -d secret.txt
 
 Python ilə:
-  import base64
-  base64.b64decode(open('secret.txt').read().strip()).decode()
+  python3 -c "import base64; print(base64.b64decode(open('secret.txt').read().strip()).decode())"
 
-Uğurlar!
+Nəticə sənə növbəti addımı göstərəcək.
+Həmin URL-ə get - orada flag-i tapacaqsan!
